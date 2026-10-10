@@ -11,24 +11,21 @@ Spares Konnect is a specialized software platform designed to support local gara
 
 ## Tech Stack
 
-> Adjust this section to match the exact technology stack used in your project.
-
 ### Frontend
 - React.js
 - Tailwind CSS
 - Mobile-friendly layout for workshop use
 
-### Backend
-- Node.js with Express
-- Python with FastAPI
+### Backend and API
+- Node.js
+- Express.js
+- REST API architecture for backend services and client communication
 
 ### Database
 - PostgreSQL
-- MongoDB
 
 ### Authentication
 - JWT
-- OAuth2
 
 ## Getting Started for Developers
 
