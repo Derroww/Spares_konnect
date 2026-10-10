@@ -11,8 +11,6 @@ Spares Konnect is a specialized software platform designed to support local gara
 
 ## Tech Stack
 
-> Adjust this section to match the exact technology stack used in your project.
-
 ### Frontend
 - React.js
 - Tailwind CSS
