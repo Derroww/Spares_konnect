@@ -1,95 +1,122 @@
-Spares Konnect 🚗🔧
+# Spares Konnect 🚗🔧
 
-Spares Konnect is a specialized software platform designed to empower local garage owners and independent mechanics. By bridging the operational gap between auto repair shops and spare parts management, Spares Konnect streamlines inventory tracking, supplier linkage, and job-cost management—all in one intuitive dashboard.
+Spares Konnect is a specialized software platform designed to support local garage owners and independent mechanics. It bridges the operational gap between automotive repair shops and spare parts management by streamlining inventory tracking, supplier coordination, and job-cost oversight in a single dashboard.
 
-🌟 Core Features
+## Core Features
 
-Job-Linked Inventory: Link every part received, reserved, used, returned, or sold directly to individual repair job cards.
+- Job-linked inventory: track every part received, reserved, used, returned, or sold against an individual repair job card.
+- Real-time stock management: monitor inventory levels and receive alerts for low stock on fast-moving parts.
+- Supplier marketplace linkage: connect garages with local spare parts dealers to simplify ordering and price comparison.
+- Audit and returns trail: record returns, core charges, and warranty replacements to reduce end-of-month discrepancies.
 
-Real-Time Stock Management: Monitor inventory levels with automated warnings for low stock on fast-moving parts.
+## Tech Stack
 
-Supplier Marketplace Linkage: Connect garages with local spare parts dealers to simplify ordering and price comparisons.
+> Adjust this section to match the exact technology stack used in your project.
 
-Audit & Returns Trail: Seamlessly log returns, core charges, and warranty replacements to eliminate end-of-month discrepancies.
+### Frontend
+- React.js
+- Tailwind CSS
+- Mobile-friendly layout for workshop use
 
-🏗️ Tech Stack
+### Backend
+- Node.js with Express
+- Python with FastAPI
 
-(Adjust this section based on your chosen technology stack, e.g., MERN, Next.js, Python/Django, etc.)
+### Database
+- PostgreSQL
+- MongoDB
 
-Frontend: React.js / Tailwind CSS (Mobile-friendly for shop-floor usage)
+### Authentication
+- JWT
+- OAuth2
 
-Backend: Node.js with Express / Python with FastAPI
+## Getting Started for Developers
 
-Database: PostgreSQL / MongoDB
+Follow these instructions to set up, build, and run the project locally for development and testing.
 
-Authentication: JWT / OAuth2
+### Prerequisites
 
-🚀 Getting Started for Developers
+Ensure the following are installed on your system:
 
-Follow these instructions to set up, build, and run the project locally on your machine for development and testing.
+- Node.js (v18 or newer recommended)
+- Git
+- A package manager such as npm, yarn, or pnpm
+- A running database instance, such as PostgreSQL or MongoDB
 
-Prerequisites
+### 1. Clone the repository
 
-Ensure you have the following installed on your system:
-
-Node.js (v18+ recommended)
-
-Git
-
-A package manager like npm, yarn, or pnpm
-
-A running instance of your database (e.g., PostgreSQL or MongoDB)
-
-1. Clone the Repository
-
+```bash
 git clone https://github.com/your-username/spares-konnect.git
 cd spares-konnect
+```
 
+### 2. Configure the environment
 
-2. Environment Configuration
+Create a `.env` file in the project root (or in separate client/server directories if using a monorepo) based on the provided template:
 
-Create a .env file in the root directory (or separate client/server directories if using a monorepo) based on the provided template:
-
+```bash
 cp .env.example .env
+```
 
+Update the environment variables to match your local configuration, including database URIs, ports, and JWT secrets.
 
-Update the environment variables with your local configuration (database URIs, port numbers, JWT secrets, etc.).
+### 3. Install dependencies
 
-3. Install Dependencies
+Install the required dependencies for the application:
 
-Install the required dependencies for both backend and frontend:
-
-# Install backend dependencies
+```bash
 npm install
+```
 
-# Navigate to client directory (if applicable) and install frontend dependencies
+If your project includes a separate frontend client, install those dependencies as well:
+
+```bash
 cd client
 npm install
 cd ..
+```
 
+### 4. Run the application
 
-4. Run the Application
+Start the backend server:
 
-Start the development servers for both backend and frontend:
-
-# Run the backend server
+```bash
 npm run dev
+```
 
-# In a separate terminal tab, run the frontend client
+In a separate terminal, start the frontend client:
+
+```bash
 cd client
 npm run start
+```
 
+The application should now be running locally at:
 
-The application should now be running locally at http://localhost:3000 (frontend) and http://localhost:5000 (backend API).
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:5000
 
-🤝 Contributing Guidelines
+## Contributing Guidelines
 
-We welcome contributions from developers, mechanics, and automotive enthusiasts! To contribute:
+We welcome contributions from developers, mechanics, and automotive enthusiasts. To contribute:
 
-Fork the Repository and create your feature branch: git checkout -b feature/amazing-feature
+1. Fork the repository and create a feature branch.
 
-Commit your Changes: git commit -m 'Add some amazing feature'
+```bash
+git checkout -b feature/amazing-feature
+```
 
-Push to the Branch: git push origin feature/amazing-feature
+2. Commit your changes.
 
-Open a Pull Request detailing your changes and how they benefit local me
+```bash
+git commit -m "Add some amazing feature"
+```
+
+3. Push the branch to your fork.
+
+```bash
+git push origin feature/amazing-feature
+```
+
+4. Open a pull request describing your changes and how they benefit local garages and mechanics.
+
